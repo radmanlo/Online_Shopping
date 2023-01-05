@@ -7,17 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Inventory Service" />
         <module name="Product_Service" />
         <module name="Order_Service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Inventory Service" target="17" />
       <module name="Order_Service" target="17" />
       <module name="Product_Service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Inventory Service" options="-parameters" />
       <module name="Order_Service" options="-parameters" />
       <module name="Product_Service" options="-parameters" />
     </option>
