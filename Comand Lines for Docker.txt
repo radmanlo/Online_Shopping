@@ -1,0 +1,2 @@
+PowerShell comand line for creating MongoDB container on Docker:
+docker run -d --name mongodb -e MONOG_INTIDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=password -p 27017:27017 mongo
