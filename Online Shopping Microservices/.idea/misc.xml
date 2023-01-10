@@ -9,7 +9,9 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/Discovery Server/pom.xml" />
         <option value="$PROJECT_DIR$/Prodcut Service/pom.xml" />
+        <option value="$PROJECT_DIR$/discoveryserver/pom.xml" />
       </set>
     </option>
   </component>
