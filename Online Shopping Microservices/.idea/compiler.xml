@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Api Gateway" />
         <module name="Inventory Service" />
         <module name="Discover Server" />
         <module name="Order Service" />
@@ -21,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Api Gateway" options="-parameters" />
       <module name="Discover Server" options="-parameters" />
       <module name="Discovery Server" options="-parameters" />
       <module name="Inventory Service" options="-parameters" />

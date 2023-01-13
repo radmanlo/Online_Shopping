@@ -18,6 +18,7 @@
         <module>Inventory Service</module>
         <module>Product Service</module>
         <module>Discover Server</module>
+        <module>Api Gateway</module>
     </modules>
 
     <properties>
